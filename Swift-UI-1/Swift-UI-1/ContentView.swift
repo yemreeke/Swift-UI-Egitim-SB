@@ -8,10 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isTurkish : Bool = true
     var body: some View {
         VStack{
-            Text("Hello, world!")
-        }
+            if(isTurkish){
+                Text("Merhaba, dünya!")
+            }
+            else{
+                Text("Hello, world!")
+            }
+            Button(action: {
+                isTurkish.toggle()
+            }, label: {
+                Text(isTurkish ? "Hello" : "Merhaba")
+            })
+        }.font(.title)
     }
 }
 

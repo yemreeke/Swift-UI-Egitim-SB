@@ -11,6 +11,7 @@
 		C3808DFB282965A800334E65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3808DFA282965A800334E65 /* ContentView.swift */; };
 		C3808DFD282965AA00334E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3808DFC282965AA00334E65 /* Assets.xcassets */; };
 		C3808E00282965AA00334E65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3808DFF282965AA00334E65 /* Preview Assets.xcassets */; };
+		C3808E0828296B4E00334E65 /* Ekstra.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C3808E0728296B4E00334E65 /* Ekstra.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		C3808DFA282965A800334E65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C3808DFC282965AA00334E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3808DFF282965AA00334E65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C3808E0628296A9D00334E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C3808E0728296B4E00334E65 /* Ekstra.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Ekstra.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		C3808DF7282965A800334E65 /* Swift-UI-2 */ = {
 			isa = PBXGroup;
 			children = (
+				C3808E0728296B4E00334E65 /* Ekstra.rtf */,
+				C3808E0628296A9D00334E65 /* Info.plist */,
 				C3808DF8282965A800334E65 /* Swift_UI_2App.swift */,
 				C3808DFA282965A800334E65 /* ContentView.swift */,
 				C3808DFC282965AA00334E65 /* Assets.xcassets */,
@@ -125,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3808E0828296B4E00334E65 /* Ekstra.rtf in Resources */,
 				C3808E00282965AA00334E65 /* Preview Assets.xcassets in Resources */,
 				C3808DFD282965AA00334E65 /* Assets.xcassets in Resources */,
 			);
@@ -272,6 +278,7 @@
 				DEVELOPMENT_TEAM = 9439532MU5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Swift-UI-2/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +308,7 @@
 				DEVELOPMENT_TEAM = 9439532MU5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Swift-UI-2/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

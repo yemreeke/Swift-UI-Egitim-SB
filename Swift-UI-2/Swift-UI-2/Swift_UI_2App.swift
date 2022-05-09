@@ -16,6 +16,4 @@ struct Swift_UI_2App: App {
     }
 }
 
-/*
- Uygulama İsmi ->Targets->Swift-UI-2->Identity->Display Name
- */
+

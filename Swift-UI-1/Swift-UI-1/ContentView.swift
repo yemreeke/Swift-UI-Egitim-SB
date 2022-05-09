@@ -19,7 +19,7 @@ struct ContentView: View {
             }
             Button(action: {
                 isTurkish.toggle()
-            }, label: {
+            },label: {
                 Text(isTurkish ? "Hello" : "Merhaba")
             })
         }.font(.title)

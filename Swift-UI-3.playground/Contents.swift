@@ -157,6 +157,7 @@ favoritePie2.rawValue //Apple Pie
 // Hafıza yer tutuyor değiştiriliyor.
 // Struct Değer tipi
 // Hafızada Kopyalanıyor.
+
 class ClassName{
     
 }

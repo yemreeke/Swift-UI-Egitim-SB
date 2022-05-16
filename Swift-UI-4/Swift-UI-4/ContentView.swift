@@ -10,11 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack{
-            Text("212")
+            Text("212").font(Font.system(size:64))
             Text("Fahrenheit")
-            Text("100")
+            Text("Is Actualy")
+            Text("100").font(Font.system(size:64))
             Text("degress Celcius")
-        }
+            Spacer()
+        }.font(.title)
     }
 }
 

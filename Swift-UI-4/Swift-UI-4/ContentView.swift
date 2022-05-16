@@ -8,15 +8,36 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var fahrenheitValue : String = ""
+    let numberFormatter : NumberFormatter = {
+        let numberFormattter = NumberFormatter()
+        numberFormattter.numberStyle = .decimal
+        numberFormattter.minimumFractionDigits = 0
+        numberFormattter.maximumFractionDigits = 2
+        return numberFormattter
+    }()
+    func convertToCelsius()->String {
+        if let value = Double(fahrenheitValue){
+            let fahrenheit = Measurement<UnitTemperature>(value:value,unit:.fahrenheit)
+            let celsiusValue = fahrenheit.converted(to: .celsius)
+            return  numberFormatter.string(from: NSNumber(value:celsiusValue.value)) ?? "???"
+        }
+        else{
+            return "???"
+        }
+    }
     var body: some View {
         VStack{
-            Text("212").font(Font.system(size:64))
+            TextField("value",text:$fahrenheitValue)
+                .font(Font.system(size:64))
+                .multilineTextAlignment(.center)
+                .keyboardType(.decimalPad)
             Text("Fahrenheit")
             Text("Is Actualy")
-            Text("100").font(Font.system(size:64))
+            Text(convertToCelsius()).font(Font.system(size:64))
             Text("degress Celcius")
             Spacer()
-        }.font(.title)
+        }.font(.title).foregroundColor(.orange)
     }
 }
 

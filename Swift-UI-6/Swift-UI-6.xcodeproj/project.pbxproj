@@ -15,6 +15,7 @@
 		C33EFCB2284CBACC00E7C707 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C33EFCB4284CBACC00E7C707 /* Localizable.strings */; };
 		C33EFCB7284CBCB400E7C707 /* Flags in Resources */ = {isa = PBXBuildFile; fileRef = C33EFCB6284CBCB400E7C707 /* Flags */; };
 		C33EFCBA284CBF3C00E7C707 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C33EFCBC284CBF3C00E7C707 /* InfoPlist.strings */; };
+		C33EFCC0284CC1C400E7C707 /* Screens in Resources */ = {isa = PBXBuildFile; fileRef = C33EFCBF284CC1C400E7C707 /* Screens */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +27,11 @@
 		C33EFCA8284CB4A400E7C707 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		C33EFCB3284CBACC00E7C707 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C33EFCB5284CBACE00E7C707 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C33EFCB6284CBCB400E7C707 /* Flags */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Flags; path = "Swift-UI-6/Flags"; sourceTree = "<group>"; };
+		C33EFCB6284CBCB400E7C707 /* Flags */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Flags; sourceTree = "<group>"; };
 		C33EFCBB284CBF3C00E7C707 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C33EFCBD284CBFB100E7C707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C33EFCBE284CBFF300E7C707 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C33EFCBF284CC1C400E7C707 /* Screens */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Screens; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +48,6 @@
 		C33EFC8E284CB49600E7C707 = {
 			isa = PBXGroup;
 			children = (
-				C33EFCB6284CBCB400E7C707 /* Flags */,
 				C33EFC99284CB49600E7C707 /* Swift-UI-6 */,
 				C33EFC98284CB49600E7C707 /* Products */,
 			);
@@ -63,7 +64,9 @@
 		C33EFC99284CB49600E7C707 /* Swift-UI-6 */ = {
 			isa = PBXGroup;
 			children = (
+				C33EFCB6284CBCB400E7C707 /* Flags */,
 				C33EFCBD284CBFB100E7C707 /* Info.plist */,
+				C33EFCBF284CC1C400E7C707 /* Screens */,
 				C33EFC9A284CB49600E7C707 /* Swift_UI_6App.swift */,
 				C33EFCBC284CBF3C00E7C707 /* InfoPlist.strings */,
 				C33EFCB4284CBACC00E7C707 /* Localizable.strings */,
@@ -142,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C33EFCC0284CC1C400E7C707 /* Screens in Resources */,
 				C33EFCA2284CB49700E7C707 /* Preview Assets.xcassets in Resources */,
 				C33EFCB2284CBACC00E7C707 /* Localizable.strings in Resources */,
 				C33EFCB7284CBCB400E7C707 /* Flags in Resources */,

@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Swift-UI-6
+
+  Created by Emre on 5.06.2022.
+  
+*/
+"CFBundleName" = "English App";
+"CFBundleDisplayName" = "English App";

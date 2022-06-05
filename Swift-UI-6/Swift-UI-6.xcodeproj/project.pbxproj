@@ -14,6 +14,7 @@
 		C33EFCA9284CB4A400E7C707 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EFCA8284CB4A400E7C707 /* MapView.swift */; };
 		C33EFCB2284CBACC00E7C707 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C33EFCB4284CBACC00E7C707 /* Localizable.strings */; };
 		C33EFCB7284CBCB400E7C707 /* Flags in Resources */ = {isa = PBXBuildFile; fileRef = C33EFCB6284CBCB400E7C707 /* Flags */; };
+		C33EFCBA284CBF3C00E7C707 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C33EFCBC284CBF3C00E7C707 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		C33EFCB3284CBACC00E7C707 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C33EFCB5284CBACE00E7C707 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C33EFCB6284CBCB400E7C707 /* Flags */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Flags; path = "Swift-UI-6/Flags"; sourceTree = "<group>"; };
+		C33EFCBB284CBF3C00E7C707 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C33EFCBD284CBFB100E7C707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C33EFCBE284CBFF300E7C707 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 		C33EFC99284CB49600E7C707 /* Swift-UI-6 */ = {
 			isa = PBXGroup;
 			children = (
+				C33EFCBD284CBFB100E7C707 /* Info.plist */,
 				C33EFC9A284CB49600E7C707 /* Swift_UI_6App.swift */,
+				C33EFCBC284CBF3C00E7C707 /* InfoPlist.strings */,
 				C33EFCB4284CBACC00E7C707 /* Localizable.strings */,
 				C33EFC9C284CB49600E7C707 /* ContentView.swift */,
 				C33EFCA8284CB4A400E7C707 /* MapView.swift */,
@@ -140,6 +146,7 @@
 				C33EFCB2284CBACC00E7C707 /* Localizable.strings in Resources */,
 				C33EFCB7284CBCB400E7C707 /* Flags in Resources */,
 				C33EFC9F284CB49700E7C707 /* Assets.xcassets in Resources */,
+				C33EFCBA284CBF3C00E7C707 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +173,15 @@
 				C33EFCB5284CBACE00E7C707 /* tr */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C33EFCBC284CBF3C00E7C707 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33EFCBB284CBF3C00E7C707 /* en */,
+				C33EFCBE284CBFF300E7C707 /* tr */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -296,6 +312,7 @@
 				DEVELOPMENT_TEAM = 9439532MU5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Swift-UI-6/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -325,6 +342,7 @@
 				DEVELOPMENT_TEAM = 9439532MU5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Swift-UI-6/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

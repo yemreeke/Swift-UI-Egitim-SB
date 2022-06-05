@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  Swift-UI-6
+
+  Created by Emre on 5.06.2022.
+  
+*/
+
+"CONVERSION_TEXT_FIELD_PLACEHOLDER"="value";
+"CONVERSION_FAHRENHEIT"="Fahrenheit";
+"CONVERSION_IS_ACTUALY"="is actualy";
+"CONVERSION_DEGREES_CELCIUS"="degress Celsius";
+"TAB_CONVERSION"="Conversion";
+"TAB_MAP"="Map";
+"MAP_CITY_ISTANBUL"="Istanbul";
+"MAP_CITY_LONDON"="London";

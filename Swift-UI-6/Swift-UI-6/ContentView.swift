@@ -29,14 +29,16 @@ struct ContentView: View {
     }
     var body: some View {
         VStack{
-            TextField("value",text:$fahrenheitValue)
+            TextField("CONVERSION_TEXT_FIELD_PLACEHOLDER",text:$fahrenheitValue)
                 .font(Font.system(size:64))
                 .multilineTextAlignment(.center)
                 .keyboardType(.decimalPad)
-            Text("Fahrenheit")
-            Text("Is Actualy")
+            Text("CONVERSION_FAHRENHEIT")
+            Text("CONVERSION_IS_ACTUALY")
             Text(convertToCelsius()).font(Font.system(size:64))
-            Text("degress Celcius")
+            Text("CONVERSION_DEGREES_CELCIUS")
+            Image("Image").resizable()
+                .frame(width: 200, height: 130)
             Spacer()
         }.font(.title).foregroundColor(.orange)
     }

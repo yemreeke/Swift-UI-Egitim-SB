@@ -15,13 +15,13 @@ struct Swift_UI_5App: App {
                 ContentView().tabItem{
                     HStack{
                         Image(systemName: "thermometer")
-                        Text("Conversion")
+                        Text("TAB_CONVERSION")
                     }
                 }
                 MapView().tabItem{
                     HStack{
                         Image(systemName: "map")
-                        Text("Map")
+                        Text("TAB_MAP")
                     }
                 }
             }.accentColor(.purple)
